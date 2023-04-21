@@ -1,0 +1,59 @@
+{
+    "python.pythonPath": "/opt/conda/bin/python",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.useNotebookEditor": true,
+    "jupyter.allowImportFromNotebook": true,
+    "jupyter.textOutputLimit": 0,
+    // Python formatting.
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    // Python linting.
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402"
+    ],
+    // Editor.
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.tabSize": 2
+    },
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "phase",
+    "files.insertFinalNewline": true,
+    // Additional extensions settings
+    "todohighlight.keywordsPattern": "(TODO|FIXME)",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.allowForcePush": true,
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "terminal.integrated.fontSize": 16,
+    "jupyter.askForKernelRestart": false,
+    "CodeGPT.maxTokens": 2000,
+    "redhat.telemetry.enabled": false,
+    "CodeGPT.temperature": 0.2,
+}
